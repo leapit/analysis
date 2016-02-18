@@ -10,7 +10,10 @@ var opts = {
         mongo: {},
         reports: 'reports',
         logs:'logs'
-    }  
+    },
+    ipdata : {
+        city: './ipdata/GeoLite2-City.mmdb'
+    }
 };
 
 ```
