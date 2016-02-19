@@ -2,7 +2,9 @@
 
 ## Usage
 
-`npm install @leapit/analysis`
+```
+npm install @leapit/analysis
+```
 
 
 ## Config your analysis like this
@@ -25,6 +27,8 @@ var opts = {
 ## Set your analysis middleware,Take express for example
 
 ```
+
+var analysis = require('@leapit/analysis');
 app.use(analysis(opts));
 
 ```
