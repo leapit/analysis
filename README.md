@@ -1,5 +1,10 @@
 # Together Analysis
 
+## Usage
+
+`npm install @leapit/analysis`
+
+
 ## Config your analysis like this
 
 Example
@@ -17,7 +22,7 @@ var opts = {
 };
 
 ```
-## Set your analysis middleware
+## Set your analysis middleware,Take express for example
 
 ```
 app.use(analysis(opts));
@@ -36,6 +41,3 @@ router.get('/', function(req, res, next) {
 });
 
 ```
-
-
-## More refer to wiki
