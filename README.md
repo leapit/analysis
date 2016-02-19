@@ -1,4 +1,4 @@
-# Together Analysis
+# Analysis
 
 ## Usage
 
